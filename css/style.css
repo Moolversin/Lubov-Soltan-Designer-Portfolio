@@ -19,7 +19,7 @@
 
 
 .hero {
-	background-color: var(--white-10);
+	background-color: var(--white-00);
 	padding-top: 50px;
 	padding-bottom: 25px;
 }
@@ -37,7 +37,7 @@
 }
 
 .about-me {
-	background-color: var(--white-10);
+	background-color: var(--white-00);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -73,6 +73,11 @@ h6 {
 	color: var(--dark-grey);
 }
 
+h2 {
+	font-size: large;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 h3 {
 	padding-top: 25px;
 }
