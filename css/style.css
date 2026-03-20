@@ -97,7 +97,62 @@ p {
 	
 }
 
+/* Base button reset */
+.btn-custom {
+	display: inline-block;
+	padding: 14px 28px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+/* Primary button */
+.btn-primary-custom {
+	font-size: 17px;
+	font-weight: 500;
+	background-color: #111;
+	color: #fff;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary-custom:hover {
+	font-size: 17px;
+	font-weight: 500;
+	background-color: var(--imperial-red);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+.btn-primary-custom:active {
+	font-size: 17px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary-custom {
+	font-size: 17px;
+	font-weight: 500;
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+}
+
+.btn-secondary-custom:hover {
+	font-size: 17px;
+	font-weight: 500;
+	background-color: var(--imperial-red);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	border: 1px solid var(--imperial-red);
+}
+
 /* Links, hover */
+a {
+	text-decoration: none;
+}
+
 
 a {
 	color: var(--dark-grey);
@@ -112,6 +167,7 @@ a:hover, a:focus, a:active, a.active {
 		font-size: 17px;
 		font-weight: 500;
 }
+
 
 
 
@@ -131,6 +187,8 @@ a:hover, a:focus, a:active, a.active {
 	color: var(--imperial-red);
 	font-weight: 300;
 }
+
+
 
 /* navbar icons */
 
