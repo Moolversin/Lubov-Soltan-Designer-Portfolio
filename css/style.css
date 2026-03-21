@@ -25,7 +25,7 @@
 }
 
 .body {
-	min-height: 69vh;
+	min-height: 100vh;
 	background-color: var(--white-00);
 	padding-top: 50px;
 }
@@ -38,8 +38,8 @@
 
 .about-me {
 	background-color: var(--white-00);
-	padding-top: 50px;
-	padding-bottom: 50px;
+	min-height: 100vh;
+	padding-top: 10vh;
 }
 
 .row {
